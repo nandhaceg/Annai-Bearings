@@ -1,0 +1,70 @@
+.cartclass{
+	font-size: 20px;
+	color: red;
+	margin-top: 10px;
+}
+
+.cartimgclass{
+	width: 70px;
+	height: 70px;
+        margin-top: -50px;
+        cursor: pointer;
+}
+
+@media screen and (min-width320px) and (max-width:768px){
+    .cartimgclass{
+        margin-top: 0px;
+    }
+}
+
+.cart_size{
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+
+.sales_spacing{
+	margin-top: 10px;
+}
+
+.cursorprop{
+    cursor:not-allowed;
+}
+
+.btnclss{
+	margin-left: 40px;
+}
+
+.tooltip{
+    display: inline;
+    position: relative;
+}
+
+.tooltip:hover:after{
+    background: green;
+    border-radius: 5px;
+    bottom: 26px;
+    color: white;
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 200;
+    width: 160px;
+    content:'This Item is Purchased';
+}
+
+.tooltip:hover:before{
+	background: #333 transparent;
+    border: solid;
+    border-color: black transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 200;
+}
+
+.fading:hover{
+    cursor: pointer;
+}

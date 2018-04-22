@@ -1,0 +1,14 @@
+.update_header{
+	font-size: 32px;
+    text-align: center;
+}
+
+.item{
+	margin-top: 30px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1000px){
+	.item{
+		margin-top: 0px;
+	}
+}

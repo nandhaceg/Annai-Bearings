@@ -1,0 +1,7 @@
+purchase model
+purchaseajax controller
+sales cntroller
+update ajaz controller
+purchase js
+newadditems view
+addmoreitemms css
